@@ -1,0 +1,6 @@
+{
+  "name": "Myile",
+  "description": "Myile delivers bespoke operations, workflow automation, CRM administration, and specialized backend support tailored for logistics, SaaS, healthcare, and professional services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
