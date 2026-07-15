@@ -59,12 +59,6 @@ export const Footer: React.FC<FooterProps> = ({ activeTab, setActiveTab }) => {
                 <LucideIcon name="Linkedin" size={16} />
               </a>
               <a 
-                href="mailto:operations@myile-ops.co"
-                className="p-2 bg-peacock-teal/30 hover:bg-peacock-teal text-peacock-cream hover:text-peacock-gold rounded-lg border border-peacock-green/20 transition-colors cursor-pointer"
-              >
-                <LucideIcon name="Mail" size={16} />
-              </a>
-              <a 
                 href="https://myile-ops.co"
                 className="p-2 bg-peacock-teal/30 hover:bg-peacock-teal text-peacock-cream hover:text-peacock-gold rounded-lg border border-peacock-green/20 transition-colors cursor-pointer"
               >

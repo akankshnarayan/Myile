@@ -95,18 +95,6 @@ export const AboutSection: React.FC = () => {
 
                 <div className="flex items-start gap-3">
                   <div className="p-2 bg-peacock-teal/50 rounded-lg text-peacock-gold mt-1">
-                    <LucideIcon name="Mail" size={16} />
-                  </div>
-                  <div>
-                    <span className="text-[10px] text-peacock-gold font-mono uppercase tracking-wider block">Operations & Inquiries</span>
-                    <a href="mailto:operations@myile-ops.co" className="text-sm font-bold text-white hover:text-peacock-gold transition-colors mt-0.5 block">
-                      operations@myile-ops.co
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="p-2 bg-peacock-teal/50 rounded-lg text-peacock-gold mt-1">
                     <LucideIcon name="Linkedin" size={16} />
                   </div>
                   <div>
@@ -120,30 +108,6 @@ export const AboutSection: React.FC = () => {
                       linkedin.com/company/myile-operations
                       <LucideIcon name="ExternalLink" size={12} />
                     </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="p-2 bg-peacock-teal/50 rounded-lg text-peacock-gold mt-1">
-                    <LucideIcon name="Phone" size={16} />
-                  </div>
-                  <div>
-                    <span className="text-[10px] text-peacock-gold font-mono uppercase tracking-wider block">Corporate Line</span>
-                    <a href="tel:+14158906945" className="text-sm font-bold text-white hover:text-peacock-gold transition-colors mt-0.5 block">
-                      +1 (415) 890-MYILE
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="p-2 bg-peacock-teal/50 rounded-lg text-peacock-gold mt-1">
-                    <LucideIcon name="MapPin" size={16} />
-                  </div>
-                  <div>
-                    <span className="text-[10px] text-peacock-gold font-mono uppercase tracking-wider block">HQ Headquarters</span>
-                    <span className="text-xs text-peacock-cream block mt-0.5">
-                      440 Peacock Plaza, Suite 900, San Francisco, CA 94104
-                    </span>
                   </div>
                 </div>
               </div>
