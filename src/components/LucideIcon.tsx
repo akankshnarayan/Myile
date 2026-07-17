@@ -54,7 +54,14 @@ import {
   MessageSquare,
   Headphones,
   MailOpen,
-  Replace
+  Replace,
+  Heart,
+  Handshake,
+  Award,
+  Eye,
+  Target,
+  Shield,
+  Lightbulb
 } from "lucide-react";
 
 const iconMap = {
@@ -112,7 +119,14 @@ const iconMap = {
   MessageSquare,
   Headphones,
   MailOpen,
-  Replace
+  Replace,
+  Heart,
+  Handshake,
+  Award,
+  Eye,
+  Target,
+  Shield,
+  Lightbulb
 };
 
 export type IconName = keyof typeof iconMap;

@@ -2,6 +2,38 @@ import { Service, Industry, FAQ } from "./types";
 
 export const servicesData: Service[] = [
   {
+    id: "customer-support",
+    name: "Customer Support",
+    description: "Deliver world-class, 24/7 omnichannel customer assistance utilizing trained specialists and automated playbook routing.",
+    previewText: "Manage inbound ticket queues, live chat support, product onboarding, and refund reconciliations.",
+    expandedContent: "Sustain exceptional customer satisfaction (CSAT) scores. Our customer support desk integrates directly with your helpdesks to manage incoming ticket queues, resolve billing inquiries, moderate product questions, and walk customers through tutorials, strictly complying with your brand voice and SLAs.",
+    iconName: "Headphones",
+    category: "customer-support",
+    features: [
+      "Omnichannel Ticket Resolving",
+      "Live Chat & SLA Performance Monitoring",
+      "Customer Macro & Custom Playbook Tuning",
+      "Billing Queries & Refunds Reconciliations"
+    ],
+    tools: ["Zendesk", "Intercom", "Freshdesk", "Gorgias", "Help Scout"]
+  },
+  {
+    id: "customer-experience",
+    name: "Customer Experience",
+    description: "Design and manage high-retention customer journeys with custom health checks, satisfaction loops, and proactive success playbooks.",
+    previewText: "Enforce standardized NPS/CSAT surveys, map customer health indices, and design proactive success playbooks.",
+    expandedContent: "Turn support into a business growth engine. We specialize in mapping out complex customer onboarding journeys, configuring automated customer health signals, scheduling proactive check-ins, and managing post-sales success calendars to maximize customer lifetime value (LTV) and brand advocacy.",
+    iconName: "Heart",
+    category: "customer-experience",
+    features: [
+      "NPS & CSAT Feedback Campaigns",
+      "Proactive Onboarding Journey Maps",
+      "Customer Health Scorecard Audits",
+      "Client Health Signals & Churn Prevention"
+    ],
+    tools: ["Gainsight", "HubSpot", "Vitally", "ChurnZero", "Typeform"]
+  },
+  {
     id: "hr-ops",
     name: "HR Operations Support",
     description: "Standardize employee lifecycles through automated checklists verified and managed by our elite operations specialists.",
@@ -225,22 +257,7 @@ export const servicesData: Service[] = [
     ],
     tools: ["Zapier", "Make.com", "Workato", "Webhooks", "JSON Parser"]
   },
-  {
-    id: "customer-support",
-    name: "Customer Support Outsourcing",
-    description: "Sustain world-class customer satisfaction indices (CSAT) with dedicated omnichannel support specialists operating with custom communication playbooks.",
-    previewText: "Manage customer queries, ticket queues, refund disputes, and product onboarding walkthroughs with elite responsiveness.",
-    expandedContent: "Provide your customers with immediate, helpful, and empathetic assistance. Our trained customer support specialists integrate directly into your ticket desk, handling live chat, email queries, refund requests, and customer feedback while strictly adhering to your custom response guidelines and SLAs.",
-    iconName: "Headphones",
-    category: "support",
-    features: [
-      "Omnichannel Ticket Management",
-      "Refund & Billing Dispute Auditing",
-      "Custom Macro & Playbook Setup",
-      "CSAT & SLA Performance Tracking"
-    ],
-    tools: ["Zendesk", "Intercom", "Freshdesk", "Gorgias", "Help Scout"]
-  },
+
   {
     id: "biz-dev-emailing",
     name: "Business Development Emailing",

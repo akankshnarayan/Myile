@@ -59,8 +59,16 @@ export const Footer: React.FC<FooterProps> = ({ activeTab, setActiveTab }) => {
                 <LucideIcon name="Linkedin" size={16} />
               </a>
               <a 
-                href="https://myile-ops.co"
+                href="mailto:akanksh@gomyile.com"
                 className="p-2 bg-peacock-teal/30 hover:bg-peacock-teal text-peacock-cream hover:text-peacock-gold rounded-lg border border-peacock-green/20 transition-colors cursor-pointer"
+                title="Email Us"
+              >
+                <LucideIcon name="Mail" size={16} />
+              </a>
+              <a 
+                href="https://myile.onrender.com"
+                className="p-2 bg-peacock-teal/30 hover:bg-peacock-teal text-peacock-cream hover:text-peacock-gold rounded-lg border border-peacock-green/20 transition-colors cursor-pointer"
+                title="Go to Website"
               >
                 <LucideIcon name="Globe" size={16} />
               </a>
@@ -126,7 +134,7 @@ export const Footer: React.FC<FooterProps> = ({ activeTab, setActiveTab }) => {
         <div className="pt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs text-peacock-cream/50">
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <span>© 2026 Myile Operations Ltd. All rights reserved.</span>
-            <a href="https://myile-ops.co" className="hover:text-peacock-gold transition-colors">https://myile-ops.co</a>
+            <a href="https://myile.onrender.com" className="hover:text-peacock-gold transition-colors">myile.onrender.com</a>
           </div>
           <div className="flex gap-4">
             <span className="cursor-pointer hover:text-peacock-gold">Privacy Policy</span>

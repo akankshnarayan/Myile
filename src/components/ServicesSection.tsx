@@ -18,6 +18,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
 
   const categories = [
     { id: "all", label: "All Capabilities" },
+    { id: "customer-support", label: "Customer Support" },
+    { id: "customer-experience", label: "Customer Experience" },
     { id: "operations", label: "Business Operations" },
     { id: "technology", label: "Tech & Automations" },
     { id: "finance", label: "Finance & Accounts" },

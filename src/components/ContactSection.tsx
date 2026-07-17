@@ -232,6 +232,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     className="w-full bg-peacock-dark/80 border border-peacock-green/30 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-peacock-gold focus:bg-peacock-dark transition-all cursor-pointer"
                   >
                     <option className="bg-peacock-dark" value="">-- Choose a custom Myile capability --</option>
+                    <option className="bg-peacock-dark" value="Customer Support">Customer Support</option>
+                    <option className="bg-peacock-dark" value="Customer Experience">Customer Experience</option>
                     <option className="bg-peacock-dark" value="HR Operations Support">HR Operations Support</option>
                     <option className="bg-peacock-dark" value="Recruitment Operations">Recruitment Operations</option>
                     <option className="bg-peacock-dark" value="CRM Administration">CRM Administration</option>

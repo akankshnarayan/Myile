@@ -5,7 +5,7 @@ export interface Service {
   previewText: string;
   expandedContent: string;
   iconName: string;
-  category: "operations" | "technology" | "finance" | "support";
+  category: "operations" | "technology" | "finance" | "support" | "customer-support" | "customer-experience";
   features: string[];
   tools: string[];
 }
